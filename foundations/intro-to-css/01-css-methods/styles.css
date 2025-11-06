@@ -1,0 +1,7 @@
+div {
+    color:white;
+    background-color:red ;
+    font-size:xx-large; /* Correct 32px */
+    font-weight: 600; /* Correct Bold (700) */
+    text-align: center;
+}
