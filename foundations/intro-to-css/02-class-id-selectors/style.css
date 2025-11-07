@@ -1,1 +1,28 @@
 /* Add CSS Styling */
+
+.odd {
+    background-color: #FC6C85;
+    font-family: 'Verdana', 'DeJavu Sans', 'sans-serif' ;
+}
+
+#second {
+    color: #0000ff;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.third {
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: #2dfe54;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*  
+    Correct, but font-size in third and fourth is the same so we
+    can take that into one class and just add it in html file 
+*/
+
