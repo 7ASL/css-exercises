@@ -20,6 +20,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* Added - All Correct*/
+  display: flex;
+  padding: 16px;
+  gap: 16px;
 }
 
 .icon {
@@ -33,6 +37,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* Added - Correct*/
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -67,3 +73,40 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* Extra added */
+
+/* My Mistake
+.header and .header-container merged in recommended solution
++margin-bottom: 8px;
+*/
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Bellow not needed */
+/* +margin-bottom: 16px for .text */
+
+.button-container {
+  display: flex;
+  gap: 4px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Overview 
+Although task visually is done close to identically,
+my solution is overcomplicated, I need to focus on limiting adding extra containers.
+*/
